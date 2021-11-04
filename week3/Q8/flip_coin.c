@@ -1,9 +1,9 @@
 #include<stdio.h>
 void main()
 {
-   int G;
-    int T,I,N,Q,result;
-    scanf("%d",&T);
+   int G;   //Number of games
+    int T,I,N,Q,result; // T- for test cases  N- number of coins Q- whether to find number of head or tail
+    scanf("%d",&T);      // I- initial position of all N coins
     while(T--)
     {   
   
