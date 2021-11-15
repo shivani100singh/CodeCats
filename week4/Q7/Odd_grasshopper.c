@@ -2,7 +2,7 @@
 
 void main()
 {
-    int x,n,i,t,j=0;
+    int x,n,i,t,j=0,position=0;
     
     printf("Enter number of test cases: ");
     scanf("%d",&t);
@@ -20,18 +20,17 @@ void main()
     {
             x=input[j][0];
             n=input[j][1];
-        for(i=1;i<=n;i++)
-        { 
-            if((x&1)==0)
-            {  
-                x=x-i;
-            }
-            else
-            {  
-                x=x+i;
-            }
-        }
+        if(n%4==1)
+            position=-n;
+        else if(n%4==2)
+            position=1;
+        else if(n%4==3)
+            position=n+1;
     j++;
-    printf("%d\n",x);
+  
+    if(x&1)
+    printf("%d\n",x-position);
+    else
+    printf("%d\n",x+position);
     }
 }
