@@ -1,0 +1,12 @@
+Item Id     Name        MRP     DISCOUNT    GST 
+101         Oreo        30          0        0
+102         Bournborn   20          0        0
+103         Jacket      2000        10       18
+104         Jeans       1500        20       18
+105         Item1       100         0        0
+106         Item2       1000        20       18
+107         Item3       500         0        0
+108         Item4       3000        30       18
+109         Item5       250         0        0
+110         Item6       800         10       18
+111         Item7       400         0        0
